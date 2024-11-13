@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="border">
+        <input id="display">
+        <div class="first-row">
+            <button onclick="onAppend('+')" class="orange">+</button>
+            <button onclick="onAppend('7')">7</button>
+            <button onclick="onAppend('8')">8</button>
+            <button onclick="onAppend('9')">9</button>
+            <button onclick="onAppend('-')" class="orange">-</button>
+            <button onclick="onAppend('4')">4</button>
+            <button onclick="onAppend('5')">5</button>
+            <button onclick="onAppend('6')">6</button>
+            <button onclick="onAppend('*')"class="orange" >*</button>
+            <button onclick="onAppend('1')">1</button>
+            <button onclick="onAppend('2')">2</button>
+            <button onclick="onAppend('3')">3</button>
+            <button onclick="onAppend('/')" class="orange">/</button>
+            <button onclick="onAppend('0')">0</button>
+            <button onclick="onAppend('.')" class="orange">.</button>
+            <button onclick="calculate()" class="orange">=</button>
+            <button onclick="clearDisplay()" class="orange"> C</button>
+            <button onclick="percent()" class="orange">%</button>
+        </div>
+    </div>
+    <script src="./java.js"></script>
+</body>
+</html>
